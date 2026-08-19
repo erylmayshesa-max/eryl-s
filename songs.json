@@ -63,5 +63,18 @@
     "lyrics": "Stars shining bright above the city noise...",
     "description": "Musik malam hari pendamping refleksi dan perancangan arsitektur.",
     "favorite": true
-  }
+  },
+{
+  "id": "song_006",
+  "title": "Lights",
+  "artist": "Ellie Goulding",
+  "album": "An Introduction Ellie Goulding",
+  "genre": "Synth-pop",
+  "duration": "4.05",
+  "audioFile": "assets/music/lights.mp3",
+  "coverImage": "assets/music-covers/mhysa.jpg",
+  "lyrics": "",
+  "description": "",
+  "favorite": true
+}
 ]

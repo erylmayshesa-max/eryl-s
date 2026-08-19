@@ -1,0 +1,85 @@
+/**
+ * songs.js
+ * Master song catalogue for Music Corner.
+ * Works natively on file:/// protocol as well as http/https web servers.
+ */
+window.PROJECT_SONGS_CATALOGUE = [
+  {
+    "id": "song_001",
+    "title": "Lo-Fi Focus Beat",
+    "artist": "Eryl Mayshesa",
+    "album": "Deep Focus Sessions",
+    "genre": "Lo-Fi / Chill",
+    "duration": "0:12",
+    "audioFile": "assets/music/lofi_study.mp3",
+    "coverImage": "assets/music-covers/lofi_study.jpg",
+    "lyrics": "Soft rain tapping against the window pane...\nCode lines flowing like a steady stream...\nCoffee warm, mind focused in the flow...",
+    "description": "Melodi santai pengiring pemrograman dan penulisan kode.",
+    "favorite": true
+  },
+  {
+    "id": "song_002",
+    "title": "Acoustic Coffee & Code",
+    "artist": "Acoustic Dreams",
+    "album": "Morning Coffee",
+    "genre": "Acoustic Pop",
+    "duration": "0:10",
+    "audioFile": "assets/music/acoustic_chill.mp3",
+    "coverImage": "assets/music-covers/acoustic_chill.jpg",
+    "lyrics": "Guitar chords warming up the quiet room...\nPages turning under golden sunlight...",
+    "description": "Petikan gitar akustik hangat untuk sesi membaca novel dan belajar.",
+    "favorite": true
+  },
+  {
+    "id": "song_003",
+    "title": "Synthwave Cyber Midnight",
+    "artist": "Neon Pulse",
+    "album": "Cyber Odyssey",
+    "genre": "Synthwave",
+    "duration": "0:14",
+    "audioFile": "assets/music/synth_wave.mp3",
+    "coverImage": "assets/music-covers/synth_wave.jpg",
+    "lyrics": "Neon lights reflecting in the midnight rain...\nSpeeding through digital highways...",
+    "description": "Irama retrowave bertempo cepat untuk ngoding fitur kompleks.",
+    "favorite": false
+  },
+  {
+    "id": "song_004",
+    "title": "Piano Ambient Serenity",
+    "artist": "Claire De Lune Trio",
+    "album": "Quiet Hours",
+    "genre": "Ambient Piano",
+    "duration": "0:15",
+    "audioFile": "assets/music/piano_ambient.mp3",
+    "coverImage": "assets/music-covers/piano_ambient.jpg",
+    "lyrics": "Gentle piano keys drifting soft and slow...",
+    "description": "Alunan piano lembut pendamping eksplorasi algoritma.",
+    "favorite": false
+  },
+  {
+    "id": "song_005",
+    "title": "Night Sky Lo-Fi Vibes",
+    "artist": "Chillhop Society",
+    "album": "Midnight Tales",
+    "genre": "Lo-Fi Beats",
+    "duration": "0:11",
+    "audioFile": "assets/music/night_vibes.mp3",
+    "coverImage": "assets/music-covers/night_vibes.jpg",
+    "lyrics": "Stars shining bright above the city noise...",
+    "description": "Musik malam hari pendamping refleksi dan perancangan arsitektur.",
+    "favorite": true
+  },
+  {
+    "id": "song_006",
+    "title": "Lights",
+    "artist": "Ellie Goulding",
+    "album": "An Introduction Ellie Goulding",
+    "genre": "Synth-pop",
+    "duration": "4:05",
+    "audioFile": "assets/music/lights.mp3",
+    "coverImage": "assets/music-covers/mhysa.jpg",
+    "lyrics": "You show the lights that stop me turn to stone...",
+    "description": "Lagu pop energik dari Ellie Goulding.",
+    "favorite": true
+  }
+];
